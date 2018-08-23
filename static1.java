@@ -1,9 +1,9 @@
 class static1{
 	public static void main(String args[]){
-		System.out.print("I'm in Main");
-		first();
+		System.out.print("I'm in Main \n");
+		
 	}
-	static void first() {
+	static {
 		System.out.println("I'm in Static Block");
 	}
 }
